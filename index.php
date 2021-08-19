@@ -11,32 +11,32 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a title="Photo Gallery" class="navbar-brand" href="#" >Harsh's PGallery</a>
+    <a title="Photo Gallery" class="navbar-brand" href="#carouselExampleIndicators" >Harsh's PGallery</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Home</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Nature</a></li>
+                <li><a href="#naturep" class="dropdown-item">Nature</a></li>
                 <br>
-                <li><a class="dropdown-item" href="#">Abstract</a></li>
+                <li><a class="dropdown-item" href="#wall">Abstract</a></li>
                 <br>
-                <li><a class="dropdown-item" href="#">Colors</a></li>
+                <li><a class="dropdown-item" href="#tech">Colors</a></li>
             </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About </a>
+          <a class="nav-link" href="#about">About </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact </a>
+          <a class="nav-link" href="#contact">Contact </a>
         </li>
       </ul>
       <form class="d-flex">
@@ -56,19 +56,19 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/nature/p1.jpg" class="d-block w-100" alt="nature/flower">
+      <img src="img/nature/p1.jpg" class="d-block w-100 imgc" alt="nature/flower">
     </div>
     <div class="carousel-item">
-      <img src="img/nature/p2.jpg" class="d-block w-100" alt="nature/clouds(mountains)">
+      <img src="img/nature/p2.jpg" class="d-block w-100 imgc" alt="nature/clouds(mountains)">
     </div>
     <div class="carousel-item">
-      <img src="img/nature/p3.jpg" class="d-block w-100" alt="nature/clouds(mountains)">
+      <img src="img/nature/p3.jpg" class="d-block w-100 imgc" alt="nature/clouds(mountains)">
     </div>
     <div class="carousel-item">
-      <img src="img/nature/p4.jpg" class="d-block w-100" alt="nature/clouds(mountains)">
+      <img src="img/nature/p4.jpg" class="d-block w-100 imgc" alt="nature/clouds(mountains)">
     </div>
     <div class="carousel-item">
-      <img src="img/nature/p5.jpg" class="d-block w-100" alt="nature">
+      <img src="img/nature/p5.jpg" class="d-block w-100 imgc" alt="nature">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -81,7 +81,7 @@
   </button>
 </div>
 <section class="my-4">
-    <div class="py-4">
+    <div id="naturep" class="py-4">
     <h2 class="class-center" style="padding-left: 46px;">Nature</h2>
     </div>
     <div class="cointainer-fluid">
@@ -99,7 +99,7 @@
     </div>
 </section>
 <section class="my-4">
-    <div class="py-4">
+    <div id="wall" class="py-4">
     <h2 class="class-center" style="padding-left: 46px;">Wallpapers</h2>
     </div>
     <div class="cointainer-fluid">
@@ -117,7 +117,7 @@
     </div>
 </section>
 <section class="my-4">
-    <div class="py-4">
+    <div id="tech" class="py-4">
     <h2 class="class-center" style="padding-left: 46px;">Technology</h2>
     </div>
     <div class="cointainer-fluid">
@@ -135,7 +135,7 @@
     </div>
 </section>
 <section class="my-4">
-    <div class="py-4">
+    <div id="contact"class="py-4">
     <h2 class="class-center" style="padding-left: 46px;">Contact us</h2>
     </div>
     <div class="w-50 m-auto">
@@ -160,7 +160,7 @@
     </div>
 </section>
 <section class="my-4  bg-b">
-    <div class="py-4">
+    <div id="about"class="py-4">
     <h2 class="text-center" style="padding-left: 46px;">About us</h2>
     </div>
     <div class="container-fluid">

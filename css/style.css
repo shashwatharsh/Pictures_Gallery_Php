@@ -3,10 +3,16 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .carousel-item{
     width: 100%;
     height: 95vh;
-
+    
+}
+.imgc{
+    size: 76px;
 }
 .imgn {
     width: 420px;
